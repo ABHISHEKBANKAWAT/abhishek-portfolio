@@ -1,0 +1,31 @@
+title: "Abhishek Kumar - Data & AI Engineer"
+description: "Portfolio of Abhishek Kumar, showcasing skills, projects, and experience in Data Engineering & AI."
+author: "Abhishek Kumar"
+email: "Abhi941183@gmail.com"
+baseurl: ""
+url: "https://abhishekbankawat.github.io"
+
+# Theme settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  
+# Navigation settings
+navigation:
+  - text: "About"
+    url: "#about"
+  - text: "Skills"
+    url: "#skills"
+  - text: "Projects"
+    url: "#projects"
+  - text: "Experience"
+    url: "#experience"
+  - text: "Contact"
+    url: "#contact"
+
+# Social links
+social:
+  linkedin: "https://www.linkedin.com/in/abhibank/"
+  github: "https://github.com/abhishekbankawat"
+  blog: "https://www.analyticsvidhya.com/blog/author/abhishek5019449/"
