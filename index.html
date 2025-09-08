@@ -3,59 +3,155 @@ layout: default
 title: Abhishek Kumar - Data & AI Engineer
 description: Portfolio of Abhishek Kumar, showcasing skills, projects, and experience in Data Engineering & AI.
 ---
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Kumar - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<header>
-    <h1>Abhishek Kumar</h1>
-    <p>Data & AI Engineer | Cloud & Big Data Specialist</p>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Abhishek Kumar</h1>
+            <p class="subtitle">Data Engineer | Python Expert | Cloud Solutions Specialist</p>
+            <div class="contact-info">
+                <span>📍 Gurugram, Haryana, India</span>
+                <span>📞 +91 8755924333</span>
+                <span>📧 <a href="mailto:Abhi941183@gmail.com">Abhi941183@gmail.com</a></span>
+            </div>
+        </div>
+    </header>
+    
     <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
+        <a href="#education">Education</a>
+        <a href="#blog">Blog</a>
     </nav>
-</header>
+    
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Data Engineer with 2.5+ years of experience in building scalable data pipelines, optimizing ETL processes, and developing cloud-based solutions. Skilled in Python, SQL, AWS, Spark, Snowflake, and MS Office (Excel, PowerPoint, VBA). Experienced in delivering business-focused data insights and technical solutions.</p>
+    </section>
+    
+    <section id="skills" class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python (Expert)</li>
+                    <li>SQL (Expert)</li>
+                    <li>Java (Proficient)</li>
+                    <li>C++</li>
+                    <li>JavaScript</li>
+                    <li>HTML/CSS</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Cloud & Big Data</h3>
+                <ul>
+                    <li>AWS (Kinesis, EMR, EC2, IAM, S3, Firehose)</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Data Engineering</h3>
+                <ul>
+                    <li>Apache Spark</li>
+                    <li>Airflow</li>
+                    <li>Snowflake (Expert)</li>
+                    <li>Hadoop</li>
+                    <li>dbt</li>
+                    <li>Hive</li>
+                    <li>Data Warehousing</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>DevOps & Tools</h3>
+                <ul>
+                    <li>Docker</li>
+                    <li>Jenkins</li>
+                    <li>Git</li>
+                    <li>MS Office (Excel, PowerPoint, VBA)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Business Technology Solutions Associate - ZS Associates</h3>
+            <p class="duration">April 2025 – Present | Gurugram, India</p>
+            <ul>
+                <li>Designed and automated finance forecast reports at the country level using Excel and VBA, improving accuracy and reducing manual effort</li>
+                <li>Handled client requests by writing and optimizing SQL queries to extract and analyze data for business needs</li>
+                <li>Translated data insights into business presentations and decks, supporting decision-making at client level</li>
+                <li>Collaborated with finance and analytics teams to align technology solutions with business objectives</li>
+            </ul>
+        </div>
+        
+        <div class="experience-item">
+            <h3>Data Engineer - Analytics Vidhya</h3>
+            <p class="duration">July 2023 – April 2025 | Gurugram, India</p>
+            <ul>
+                <li>Designed and built a Snowflake-based data warehouse, aligning with business requirements and optimizing for cost efficiency</li>
+                <li>Developed and deployed robust ETL and streaming pipelines for diverse data sources (Google Analytics, RDS, Metabase)</li>
+                <li>Migrated data streaming pipelines from AWS to Databricks, utilizing Delta Lake and Unity Catalog, achieving a 30% cost reduction</li>
+                <li>Created and delivered technical content on data engineering, Apache Hadoop, and Hive</li>
+                <li>Authored 20+ articles on data engineering and emerging technologies with 4,000+ readers</li>
+            </ul>
+        </div>
+        
+        <div class="experience-item">
+            <h3>Java Fullstack Intern - Capgemini</h3>
+            <p class="duration">April 2023 – June 2023 | Remote</p>
+            <ul>
+                <li>Developed full-stack applications using Java Spring and MongoDB, focusing on scalability and unit testing</li>
+                <li>Collaborated in an Agile environment to optimize the development cycle and improve code quality</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Bachelor of Technology in Computer Science</h3>
+            <p>GLA University, Mathura, India (2019 – 2023)</p>
+            <p>CGPA: 7.89/10.0</p>
+        </div>
+        <div class="education-item">
+            <h3>Higher Secondary Education</h3>
+            <p>Army Public School (2019)</p>
+            <p>Specialization: Mathematics, Physics, Chemistry, Computer Science</p>
+        </div>
+    </section>
+    
+    <section id="blog" class="section">
+        <h2>Blog</h2>
+        <div id="blog-posts">
+            <!-- Blog posts will be loaded here -->
+        </div>
+        <div class="blog-controls">
+            <button id="add-post-btn" onclick="showAddPostForm()">Add New Post</button>
+        </div>
+        
+        <!-- Add Post Form (hidden by default) -->
+        <div id="add-post-form" class="add-post-form" style="display: none;">
+            <h3>Add New Blog Post</h3>
+            <input type="text" id="post-title" placeholder="Post Title" required>
+            <textarea id="post-content" placeholder="Write your post content here..." rows="10" required></textarea>
+            <div class="form-buttons">
+                <button onclick="addPost()">Publish Post</button>
+                <button onclick="hideAddPostForm()">Cancel</button>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>Motivated Data Engineer with expertise in Python, SQL, AWS, Apache Spark, and Snowflake. Passionate about optimizing ETL pipelines and building scalable data solutions.</p>
-</section>
-
-<section id="skills">
-    <h2>Technical Skills</h2>
-    <ul>
-        <li><strong>Programming:</strong> Python (Expert), SQL (Expert), Java, C++</li>
-        <li><strong>Cloud & Big Data:</strong> AWS, Databricks, Delta Lake</li>
-        <li><strong>Data Engineering:</strong> Apache Spark, Kafka, Airflow, Snowflake, dbt</li>
-        <li><strong>DevOps:</strong> Docker, Jenkins, Git, CI/CD Pipelines</li>
-    </ul>
-</section>
-
-<section id="projects">
-    <h2>Projects</h2>
-    <ul>
-        <li><strong>Spotify End-To-End Pipeline:</strong> Automated processing for 1M+ daily Spotify tracks using AWS & Python.</li>
-        <li><strong>ML Model Deployment Pipeline:</strong> CI/CD pipeline for ML model deployment using Jenkins & AWS.</li>
-    </ul>
-</section>
-
-<section id="experience">
-    <h2>Experience</h2>
-    <h3>Data Engineer @ Analytics Vidhya</h3>
-    <p>Developed ETL pipelines, migrated streaming data to Databricks, and optimized cloud-based data warehousing.</p>
-    <h3>Java Fullstack Intern @ Capgemini</h3>
-    <p>Developed Java Spring applications and collaborated in an Agile environment.</p>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:Abhi941183@gmail.com">Abhi941183@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/abhibank/" target="_blank">linkedin.com/in/abhibank</a></p>
-    <p>Blog: <a href="https://www.analyticsvidhya.com/blog/author/abhishek5019449/" target="_blank">Analytics Vidhya Blog</a></p>
-</section>
-
-<footer>
-    <p>&copy; 2025 Abhishek Kumar. All rights reserved.</p>
-</footer>
