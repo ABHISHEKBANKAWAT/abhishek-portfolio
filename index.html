@@ -1,8 +1,3 @@
----
-layout: default
-title: Abhishek Kumar - Data & AI Engineer
-description: Portfolio of Abhishek Kumar, showcasing skills, projects, and experience in Data Engineering & AI.
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,148 +5,261 @@ description: Portfolio of Abhishek Kumar, showcasing skills, projects, and exper
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhishek Kumar - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="hero">
-            <h1>Abhishek Kumar</h1>
-            <p class="subtitle">Data Engineer | Python Expert | Cloud Solutions Specialist</p>
-            <div class="contact-info">
-                <span>📍 Gurugram, Haryana, India</span>
-                <span>📞 +91 8755924333</span>
-                <span>📧 <a href="mailto:Abhi941183@gmail.com">Abhi941183@gmail.com</a></span>
+            <div class="profile-section">
+                <div class="profile-image">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <h1>Abhishek Kumar</h1>
+                <p class="subtitle">Data Engineer | Python Expert | Cloud Solutions Specialist</p>
+                <div class="contact-info">
+                    <span><i class="fas fa-map-marker-alt"></i> Gurugram, Haryana, India</span>
+                    <span><i class="fas fa-phone"></i> +91 8755924333</span>
+                    <span><i class="fas fa-envelope"></i> <a href="mailto:Abhi941183@gmail.com">Abhi941183@gmail.com</a></span>
+                    <span><i class="fab fa-linkedin"></i> <a href="#" target="_blank">LinkedIn</a></span>
+                </div>
             </div>
         </div>
     </header>
     
     <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#blog">Blog</a>
+        <div class="nav-container">
+            <a href="#about"><i class="fas fa-user"></i> About</a>
+            <a href="#skills"><i class="fas fa-code"></i> Skills</a>
+            <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+            <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+            <a href="#blog"><i class="fas fa-blog"></i> Blog</a>
+        </div>
     </nav>
     
     <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>Data Engineer with 2.5+ years of experience in building scalable data pipelines, optimizing ETL processes, and developing cloud-based solutions. Skilled in Python, SQL, AWS, Spark, Snowflake, and MS Office (Excel, PowerPoint, VBA). Experienced in delivering business-focused data insights and technical solutions.</p>
+        <div class="section-header">
+            <h2><i class="fas fa-user-tie"></i> About Me</h2>
+        </div>
+        <div class="about-content">
+            <p>Data Engineer with 2.5+ years of experience in building scalable data pipelines, optimizing ETL processes, and developing cloud-based solutions. Skilled in Python, SQL, AWS, Spark, Snowflake, and MS Office (Excel, PowerPoint, VBA). Experienced in delivering business-focused data insights and technical solutions.</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>2.5+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3>20+</h3>
+                    <p>Articles Published</p>
+                </div>
+                <div class="stat-item">
+                    <h3>4000+</h3>
+                    <p>Readers Reached</p>
+                </div>
+            </div>
+        </div>
     </section>
     
     <section id="skills" class="section">
-        <h2>Technical Skills</h2>
+        <div class="section-header">
+            <h2><i class="fas fa-cogs"></i> Technical Skills</h2>
+        </div>
         <div class="skills-grid">
             <div class="skill-category">
+                <div class="category-icon">
+                    <i class="fas fa-code"></i>
+                </div>
                 <h3>Programming Languages</h3>
-                <ul>
-                    <li>Python (Expert)</li>
-                    <li>SQL (Expert)</li>
-                    <li>Java (Proficient)</li>
-                    <li>C++</li>
-                    <li>JavaScript</li>
-                    <li>HTML/CSS</li>
-                </ul>
+                <div class="skills-list">
+                    <span class="skill-tag expert">Python</span>
+                    <span class="skill-tag expert">SQL</span>
+                    <span class="skill-tag proficient">Java</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">HTML/CSS</span>
+                </div>
             </div>
             <div class="skill-category">
+                <div class="category-icon">
+                    <i class="fas fa-cloud"></i>
+                </div>
                 <h3>Cloud & Big Data</h3>
-                <ul>
-                    <li>AWS (Kinesis, EMR, EC2, IAM, S3, Firehose)</li>
-                </ul>
+                <div class="skills-list">
+                    <span class="skill-tag">AWS Kinesis</span>
+                    <span class="skill-tag">EMR</span>
+                    <span class="skill-tag">EC2</span>
+                    <span class="skill-tag">S3</span>
+                    <span class="skill-tag">Firehose</span>
+                </div>
             </div>
             <div class="skill-category">
+                <div class="category-icon">
+                    <i class="fas fa-database"></i>
+                </div>
                 <h3>Data Engineering</h3>
-                <ul>
-                    <li>Apache Spark</li>
-                    <li>Airflow</li>
-                    <li>Snowflake (Expert)</li>
-                    <li>Hadoop</li>
-                    <li>dbt</li>
-                    <li>Hive</li>
-                    <li>Data Warehousing</li>
-                </ul>
+                <div class="skills-list">
+                    <span class="skill-tag">Apache Spark</span>
+                    <span class="skill-tag">Airflow</span>
+                    <span class="skill-tag expert">Snowflake</span>
+                    <span class="skill-tag">Hadoop</span>
+                    <span class="skill-tag">dbt</span>
+                    <span class="skill-tag">Hive</span>
+                </div>
             </div>
             <div class="skill-category">
+                <div class="category-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
                 <h3>DevOps & Tools</h3>
-                <ul>
-                    <li>Docker</li>
-                    <li>Jenkins</li>
-                    <li>Git</li>
-                    <li>MS Office (Excel, PowerPoint, VBA)</li>
-                </ul>
+                <div class="skills-list">
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Jenkins</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Excel VBA</span>
+                </div>
             </div>
         </div>
     </section>
     
     <section id="experience" class="section">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <h3>Business Technology Solutions Associate - ZS Associates</h3>
-            <p class="duration">April 2025 – Present | Gurugram, India</p>
-            <ul>
-                <li>Designed and automated finance forecast reports at the country level using Excel and VBA, improving accuracy and reducing manual effort</li>
-                <li>Handled client requests by writing and optimizing SQL queries to extract and analyze data for business needs</li>
-                <li>Translated data insights into business presentations and decks, supporting decision-making at client level</li>
-                <li>Collaborated with finance and analytics teams to align technology solutions with business objectives</li>
-            </ul>
+        <div class="section-header">
+            <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
         </div>
-        
-        <div class="experience-item">
-            <h3>Data Engineer - Analytics Vidhya</h3>
-            <p class="duration">July 2023 – April 2025 | Gurugram, India</p>
-            <ul>
-                <li>Designed and built a Snowflake-based data warehouse, aligning with business requirements and optimizing for cost efficiency</li>
-                <li>Developed and deployed robust ETL and streaming pipelines for diverse data sources (Google Analytics, RDS, Metabase)</li>
-                <li>Migrated data streaming pipelines from AWS to Databricks, utilizing Delta Lake and Unity Catalog, achieving a 30% cost reduction</li>
-                <li>Created and delivered technical content on data engineering, Apache Hadoop, and Hive</li>
-                <li>Authored 20+ articles on data engineering and emerging technologies with 4,000+ readers</li>
-            </ul>
-        </div>
-        
-        <div class="experience-item">
-            <h3>Java Fullstack Intern - Capgemini</h3>
-            <p class="duration">April 2023 – June 2023 | Remote</p>
-            <ul>
-                <li>Developed full-stack applications using Java Spring and MongoDB, focusing on scalability and unit testing</li>
-                <li>Collaborated in an Agile environment to optimize the development cycle and improve code quality</li>
-            </ul>
-        </div>
-    </section>
-    
-    <section id="education" class="section">
-        <h2>Education</h2>
-        <div class="education-item">
-            <h3>Bachelor of Technology in Computer Science</h3>
-            <p>GLA University, Mathura, India (2019 – 2023)</p>
-            <p>CGPA: 7.89/10.0</p>
-        </div>
-        <div class="education-item">
-            <h3>Higher Secondary Education</h3>
-            <p>Army Public School (2019)</p>
-            <p>Specialization: Mathematics, Physics, Chemistry, Computer Science</p>
-        </div>
-    </section>
-    
-    <section id="blog" class="section">
-        <h2>Blog</h2>
-        <div id="blog-posts">
-            <!-- Blog posts will be loaded here -->
-        </div>
-        <div class="blog-controls">
-            <button id="add-post-btn" onclick="showAddPostForm()">Add New Post</button>
-        </div>
-        
-        <!-- Add Post Form (hidden by default) -->
-        <div id="add-post-form" class="add-post-form" style="display: none;">
-            <h3>Add New Blog Post</h3>
-            <input type="text" id="post-title" placeholder="Post Title" required>
-            <textarea id="post-content" placeholder="Write your post content here..." rows="10" required></textarea>
-            <div class="form-buttons">
-                <button onclick="addPost()">Publish Post</button>
-                <button onclick="hideAddPostForm()">Cancel</button>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-building"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Business Technology Solutions Associate</h3>
+                    <h4>ZS Associates</h4>
+                    <p class="duration"><i class="fas fa-calendar"></i> April 2025 – Present | Gurugram, India</p>
+                    <ul>
+                        <li>Designed and automated finance forecast reports at the country level using Excel and VBA</li>
+                        <li>Handled client requests by writing and optimizing SQL queries for business needs</li>
+                        <li>Translated data insights into business presentations and decks</li>
+                        <li>Collaborated with finance and analytics teams to align technology solutions</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Data Engineer</h3>
+                    <h4>Analytics Vidhya</h4>
+                    <p class="duration"><i class="fas fa-calendar"></i> July 2023 – April 2025 | Gurugram, India</p>
+                    <ul>
+                        <li>Designed and built a Snowflake-based data warehouse with cost optimization</li>
+                        <li>Developed robust ETL and streaming pipelines for diverse data sources</li>
+                        <li>Migrated pipelines from AWS to Databricks achieving 30% cost reduction</li>
+                        <li>Authored 20+ articles on data engineering with 4,000+ readers</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>Java Fullstack Intern</h3>
+                    <h4>Capgemini</h4>
+                    <p class="duration"><i class="fas fa-calendar"></i> April 2023 – June 2023 | Remote</p>
+                    <ul>
+                        <li>Developed full-stack applications using Java Spring and MongoDB</li>
+                        <li>Collaborated in Agile environment to optimize development cycle</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
     
+    <section id="education" class="section">
+        <div class="section-header">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        </div>
+        <div class="education-grid">
+            <div class="education-item">
+                <div class="education-icon">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="education-content">
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <h4>GLA University</h4>
+                    <p>2019 – 2023 | Mathura, India</p>
+                    <div class="grade">CGPA: 7.89/10.0</div>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="education-icon">
+                    <i class="fas fa-school"></i>
+                </div>
+                <div class="education-content">
+                    <h3>Higher Secondary Education</h3>
+                    <h4>Army Public School</h4>
+                    <p>2019</p>
+                    <div class="specialization">Mathematics, Physics, Chemistry, Computer Science</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="blog" class="section">
+        <div class="section-header">
+            <h2><i class="fas fa-blog"></i> Blog</h2>
+        </div>
+        
+        <!-- Admin Panel (Password Protected) -->
+        <div id="admin-panel" class="admin-panel" style="display: none;">
+            <div class="admin-header">
+                <h3><i class="fas fa-user-shield"></i> Admin Panel</h3>
+                <button onclick="logout()" class="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</button>
+            </div>
+            <div class="blog-controls">
+                <button id="add-post-btn" onclick="showAddPostForm()">
+                    <i class="fas fa-plus"></i> Add New Post
+                </button>
+            </div>
+        </div>
+        
+        <!-- Login Form -->
+        <div id="login-form" class="login-form">
+            <h3><i class="fas fa-lock"></i> Admin Login</h3>
+            <div class="login-fields">
+                <input type="password" id="admin-password" placeholder="Enter admin password" />
+                <button onclick="login()"><i class="fas fa-key"></i> Login</button>
+            </div>
+        </div>
+        
+        <div id="blog-posts">
+            <!-- Blog posts will be loaded here -->
+        </div>
+        
+        <!-- Add Post Form (hidden by default) -->
+        <div id="add-post-form" class="add-post-form" style="display: none;">
+            <h3><i class="fas fa-edit"></i> Create New Blog Post</h3>
+            <input type="text" id="post-title" placeholder="Post Title" required>
+            <textarea id="post-content" placeholder="Write your post content here..." rows="10" required></textarea>
+            <div class="form-buttons">
+                <button onclick="addPost()"><i class="fas fa-publish"></i> Publish Post</button>
+                <button onclick="hideAddPostForm()"><i class="fas fa-times"></i> Cancel</button>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Abhishek Kumar. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="mailto:Abhi941183@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    
     <script src="script.js"></script>
 </body>
 </html>
-
